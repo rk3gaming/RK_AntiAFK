@@ -1,13 +1,13 @@
-fx_version 'bodacious'
-author 'Rkfrmda3 / LSC Development'
-game 'gta5'
+fx_version('bodacious')
+author('Rkfrmda3 / LSC Development')
+game({ 'gta5' })
 
-lua54 'yes'
+lua54('yes')
 
-client_script 'source/client.lua'
-server_script 'source/server.lua'
+client_script('client/main.lua')
+server_script('server/edit_me.lua')
 
-shared_scripts {
+shared_scripts({
     '@ox_lib/init.lua',
     'config.lua'
-}
+});
